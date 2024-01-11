@@ -1,0 +1,37 @@
+/*Dentro de section use flex-box para poder centrar el primer div llamado container*/
+.section{
+    width: 200vh;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Dentro de cada contenedor se uso flex-box para centarr los div y "background-color" para ponerle el color*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 80vh;
+    background-color: red;
+}
+
+/*En esta se le agrega un border de tipo solido de 5 pixeles y color verde como en las indicaciones, tambien un radio en los bordes de 10%*/
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    background-color: blue;
+    border: solid 5px green;
+    border-radius: 10%;
+}
+/*Este es basicamente igual que el anterior solo cambia la dimencion del radio del borde para formar un circulo*/
+.circle{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    border: solid 5px white;
+    border-radius: 50%;
+}
